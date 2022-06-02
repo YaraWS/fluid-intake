@@ -1,16 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
 
-button { background: #4d926d; 
+button { background: transparent; 
     margin: none;
     padding: none;
     border: none;
     outline: none;
 }
 
+button:hover {
+    
+    transform: scale(1.1) perspective(1px)
+  }
+
 body{
-    background-color: #4d926d;
-    color: beige;
+    
+background: rgb(82,203,138);
+background: radial-gradient(circle, rgb(82, 203, 159) 0%, rgba(71,113,89,1) 94%);
+    color: rgb(255, 255, 255);
     font-size: 60px;
     text-align: center;
     font-weight: 500;
@@ -18,7 +25,7 @@ body{
 
 h1{
     color: #252424;
-    font-size: 50px;
+    font-size: 55px;
     text-align: center;
     font-family: 'Staatliches', cursive;
     
