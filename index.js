@@ -8,12 +8,12 @@ function drinkWater() {
 }
 
 function drinkTea() {
-    belly += 200
+    belly += 500
     result.textContent = belly + " ml"
 }
 
 function drinkCoffee() {
-    belly += 200
+    belly += 100
     result.textContent = belly + " ml"
 }
 
