@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
 
-button { background: transparent; 
+button { 
+    background: transparent; 
     margin: none;
     padding: none;
     border: none;
@@ -9,14 +10,12 @@ button { background: transparent;
 }
 
 button:hover {
-    
     transform: scale(1.1) perspective(1px)
-  }
+}
 
 body{
-    
-background: rgb(82,203,138);
-background: radial-gradient(circle, rgb(82, 203, 159) 0%, rgba(71,113,89,1) 94%);
+    background: rgb(82,203,138);
+    background: radial-gradient(circle, rgb(82, 203, 159) 0%, rgba(71,113,89,1) 94%);
     color: rgb(255, 255, 255);
     font-size: 60px;
     text-align: center;
@@ -28,7 +27,6 @@ h1{
     font-size: 55px;
     text-align: center;
     font-family: 'Staatliches', cursive;
-    
 }
 
 .drinks{
@@ -42,5 +40,4 @@ h1{
 .result{
     align-items: center;
     height: 150px;
-    
 }
